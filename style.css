@@ -1,0 +1,166 @@
+
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    font-size: 30px;
+
+}
+
+
+
+/* Body Header */
+
+#body-header {
+    height: 75vh;
+    background-image: url(background.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 1.2rem;
+}
+
+
+
+/* Horizontal Lists */
+
+.horizontal-list {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+.horizontal-list li {
+    display: inline-block;
+    margin: 0px 38px 38px 0px;
+    font-weight: 100;
+    font-size: 1.1rem;
+}
+
+.horizontal-list li a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+.nav-menu li a {
+    transition: color 0.5s, border-bottom 4s;
+}
+
+.nav-menu li a:hover {
+    color: black;
+    border-bottom: 1px solid #03A9F4;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+
+/* Name and Social Icons in **Contacts also */
+
+#name-social-container {
+    margin-top: 4vh;
+}
+
+
+
+.social-icons li a i {
+    padding: 20px;
+    font-size: 2rem;
+    border-radius: 50%;
+
+}
+
+.social-icons li a i:hover {
+    color: #f76435;
+    box-shadow: 0px 0px 6px 4px #03A9F4;
+}
+
+#cont h1{
+    color:  #f76435;
+    text-align: left;
+}
+
+
+
+/*Section Classes*/
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+section:nth-child(2n) {
+    background-color: black;
+}
+
+section:nth-child(2n + 1) {
+    background-color: black;
+}
+
+.section-heading {
+    width: auto;
+    padding: 20px 10px 10px;
+    font-weight: 400;
+}
+
+.section-heading span {
+    font-size: 40px;
+    color: #2857a4;
+    display: inline-block;
+    padding-top: 10px;
+    margin-right: 0.5rem;
+}
+
+
+
+
+/*About Section*/
+
+#about {
+    height: auto;
+    width: 100%;
+    position: relative;
+    margin-bottom: 0px;
+}
+
+#my-image {
+    height: 25rem;
+    width: 25rem;
+    margin: auto;
+    margin-top: -12vh;
+}
+
+#my-image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow: 1px 1px 18px 2px #f35828;
+}
+
+#about-para {
+    padding: 10px;
+    width: 70%;
+    text-align: justify;
+    line-height: 28px;
+    font-size: 1.1rem;
+    margin: auto;
+    color: white;
+}
+
+#my-name {
+    font-weight: bolder;
+    color: white;
+    width: 1000px;
+}
+
+#my-name h1:hover{
+    color: #f76435;
+
+}
+
